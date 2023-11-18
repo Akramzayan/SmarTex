@@ -1,0 +1,14 @@
+import React from 'react'
+import "./footer.scss"
+
+const Footer = () => {
+  return (
+    <div className='footer'>
+       <span>Smartex</span>
+       <span>i will write this later</span>
+      
+    </div>
+  )
+}
+
+export default Footer

@@ -1,0 +1,23 @@
+.bigChartBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1{
+        font-size: 20;
+        font-weight: 500;
+        font-style: bold;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .chart {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

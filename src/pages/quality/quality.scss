@@ -1,0 +1,22 @@
+.quality{
+  width: 90%;
+   height: 100%;
+   padding: 0px 50px;
+     
+     .info{
+       display: flex;
+       align-items: center;
+       gap: 50px;
+       margin-bottom: 20px;
+   
+       button{
+         padding: 5px;
+         cursor: pointer;
+         font-weight: bold;
+         color: black;
+         border-radius: 10%;
+      
+       }
+     }
+ }
+   

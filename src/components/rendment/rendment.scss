@@ -1,0 +1,102 @@
+.content{
+  height: 90%;
+  width: 90%;
+  .table1 {
+    margin: 30px;
+    font-family: 'Arial', sans-serif;
+    color: black;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+  
+    .tableContent {
+      width: 100%;
+      border-collapse: collapse;
+  
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+      }
+  
+      th {
+        background-color: #f2f2f2;
+      }
+  
+      tbody {
+        tr {
+          &:nth-child{
+            background-color: #f9f9f9;
+          }
+  
+          td {
+            .label {
+              padding: 4px 8px;
+              border-radius: 4px;
+              display: inline-block;
+              font-size: 12px;
+              font-weight: bold;
+  
+              &.label-live {
+                background-color: #5cb85c;
+                color: #fff;
+                cursor: pointer;
+              }
+  
+              &.label-draft {
+                background-color: #5bc0de;
+                color: #fff;
+                cursor: pointer;
+              }
+  
+              &.label-error {
+                background-color: #d9534f;
+                color: #fff;
+                cursor: pointer;
+              }
+            }
+  
+            .icons {
+              display: flex;
+              margin-right: 8px;
+              cursor: pointer;
+             justify-content: center;
+             gap: 20px;
+             .delete{
+                color: red;
+             }
+          
+
+             }
+          
+  
+             
+            }
+            
+          }
+        }
+      }
+      .modal{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+         button{
+           margin: 40px;
+           padding: 2px;
+           width: 10%;
+        height: 10%;
+           text-align: center;
+           color: white;
+          border: 3px;
+          cursor: pointer;
+          background-color: #837fe5;
+          border-radius: 5px;
+         }
+
+
+
+    }
+
+  }
+  
+}
